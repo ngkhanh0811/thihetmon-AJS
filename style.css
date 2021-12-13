@@ -1,0 +1,72 @@
+html,
+body {
+    height: 100%;
+    font-family: "Muli", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+.navbar-brand{
+    margin-right: 300px;
+}
+.container-fluid{
+    border-bottom: solid gray 1px;
+}
+.nav-item{
+    margin-right: 50px;
+}
+header {
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+}
+header .ht-left .mail-service {
+    font-size: 16px;
+    color: #252525;
+    float: left;
+    border-right: 1px solid #E5E5E5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+header-top .ht-left .address-service i {
+    margin-right: 5px;
+}
+header-top .ht-left .mail-service i {
+    margin-right: 5px;
+}
+
+header .ht-left .phone-service {
+    font-size: 16px;
+    color: #252525;
+    line-height: 27px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    line-height: 27px;
+}
+header .ht-left .address-service {
+    font-size: 16px;
+    color: #252525;
+    line-height: 27px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    line-height: 27px;
+}
+header .ht-left .phone-service i  {
+    margin-right: 5px;
+}
+.images{
+    float: left;
+    margin-right: 50px;
+}
+.infor{
+    margin: 100px;
+    float: left;
+}
+.body{
+    height: 500px;
+}
